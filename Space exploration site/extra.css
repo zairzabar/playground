@@ -1,0 +1,18 @@
+/* 
+    How to add fonts
+    1. Download the .ttf file
+    2. Use the font face property to point it out mentioned below
+    3. Set the name of the font, also mentioned below
+     eg: @font-face {
+            src: url("Corleone.ttf"); <= pointing to the font file
+            font-family: Corleone; <= Setting the name of the font
+        }
+ */
+ @font-face {
+    src: url("Corleone.ttf");
+    font-family: Corleone;
+}
+
+h1 {
+    font-family: Corleone;
+}
